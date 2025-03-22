@@ -17,8 +17,8 @@ A modern and user-friendly AI chatbot application. An advanced chat interface th
 
 1. Clone the repository:
 ```bash
-git clone [repo-url]
-cd [repo-name]
+git clone https://github.com/dogukankml/chatbot.git
+cd chatbot
 ```
 
 2. Install the required packages:
