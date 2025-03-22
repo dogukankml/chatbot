@@ -1,53 +1,53 @@
 # AI Chatbot
 
-Modern ve kullanıcı dostu bir AI chatbot uygulaması. OpenAI'nin GPT API'sini kullanarak akıllı yanıtlar verebilen, çoklu sekme desteği sunan gelişmiş bir sohbet arayüzü.
+A modern and user-friendly AI chatbot application. An advanced chat interface that can provide smart responses using OpenAI's GPT API and supports multi-tab conversations.
 
 
-## Özellikler
+## Features
 
-- 🎨 Modern ve kullanıcı dostu tasarım
-- 💬 Çoklu sekme desteği ile paralel sohbetler
-- 🤖 OpenAI GPT tabanlı akıllı yanıtlar
-- 📝 Sohbet geçmişi yönetimi
-- ⚡ Yanıtların canlı olarak akışı
-- 📤 Sohbet dışa aktarma (DOCX, TXT, PDF)
-- 📎 Dosya yükleme desteği
+- 🎨 Modern and user-friendly design
+- 💬 Multi-tab support for parallel conversations
+- 🤖 Smart responses powered by OpenAI GPT
+- 📝 Chat history management
+- ⚡ Real-time response streaming
+- 📤 Chat export (DOCX, TXT, PDF)
+- 📎 File upload support
 
-## Kurulum
+## Installation
 
-1. Repoyu klonlayın:
+1. Clone the repository:
 ```bash
 git clone [repo-url]
 cd [repo-name]
 ```
 
-2. Gerekli paketleri yükleyin:
+2. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. `.env` dosyasını oluşturun:
-- OpenAI API anahtarınızı `.env` dosyasına ekleyin
+3. Create a `.env` file: 
+- Add your OpenAI API key to the `.env` file.
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
 
-## Kullanım
+## Usage
 
-Uygulamayı başlatmak için:
+To start the application:
 ```bash
 streamlit run app.py
 ```
 
-Tarayıcınızda otomatik olarak açılacaktır. Eğer açılmazsa, konsolda gösterilen URL'yi tarayıcınıza yapıştırın.
+It will open automatically in your browser. If it doesn’t, copy and paste the URL shown in the console into your browser.
 
-## Özellik Detayları
+## Feature Details
 
-- **Çoklu Sekme**: Farklı konularda paralel sohbetler yürütün.
-- **Dosya Yükleme**: Metin ve PDF dosyalarını yükleyip analiz edin.
-- **Dışa Aktarma**: Sohbetlerinizi DOCX, TXT veya PDF formatında dışa aktarın.
-- **Sohbet Temizleme**: Her sekmede bağımsız olarak sohbeti temizleyin.
+- **Multi-Tab**: Run parallel conversations on different topics.
+- **File Upload**: Upload and analyze text and PDF files.
+- **Export**: Export your chats in DOCX, TXT, or PDF formats.
+- **Clear Chat**: Clear conversations independently in each tab.
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT License. See the `LICENSE` file for details.

@@ -350,11 +350,11 @@ def handle_chat(tab_name, tab):
             if st.button("Clear Chat", key=f"clear_{tab_name}", help="Clear chat history"):
                 clear_chat(tab_name)
 
-        # İndirme butonlarının state'lerini başlat
+        # Initialize the states of the download buttons
         if "download_states" not in st.session_state:
             st.session_state.download_states = {}
 
-        # Butonları aç/kapa fonksiyonu
+        # Button enable/disable function
         def toggle_download_button(tab_name, file_type):
             key = f"download_{file_type}_{tab_name}"
             st.session_state.download_states[key] = not st.session_state.download_states.get(key, False)
